@@ -115,11 +115,13 @@ address img {
         
     }
     header {
+
         width: 380px;
         font-size: 18px;
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
+        
         border-right: #FEFFFF solid 1px;
 
     }
@@ -148,6 +150,10 @@ address img {
     }
     img {
         width: 400px;
+    }
+    .hero {
+        top: 250px;
+        position: fixed;
     }
     
     
