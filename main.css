@@ -93,9 +93,9 @@ address img {
         display: block;
     }
 
-@media (min-width: 720px) {
-    p{
-        
+@media (min-width: 820px) {
+    body{
+        min-width: 700px;       
     }
 }
 
