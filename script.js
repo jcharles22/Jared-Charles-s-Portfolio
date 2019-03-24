@@ -9,7 +9,7 @@ function resizeWindow(){
     console.log(winWidth);
     if(winWidth < 1265) {
         $('.footer').insertAfter($('.content'));
-        } else if (winWidth > 1265) {
+        } else if (winWidth > 1266) {
             $('.footer').appendTo($('.hero'));
         }
     };
