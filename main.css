@@ -11,14 +11,19 @@ h1 {
     font-size: 32px;
     letter-spacing: 5px;
 }
+
 header p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     padding-bottom: 15px;
     word-spacing: 4px;
 }
-hr {
+header hr{
     width: 60%;
+    min-width: 300px;
+    border-color: #FEFFFF;
+}
+hr {
     border-color: #FEFFFF;
 }
 header {
@@ -28,11 +33,7 @@ header {
     background-color: #303B3F;
     
 }
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-}
+
 main {
     padding: 0 15px;
 }
@@ -44,7 +45,7 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-top: 20px;
-    border: black 1px solid;
+    border: #FEFFFF 1px solid;
     
 }
 main ul{
@@ -59,7 +60,7 @@ main ul{
    
 }
 img {
-    width: 220px;
+    width: 320px;
     transition: 0.3s;
 }
 img:hover {
@@ -88,4 +89,66 @@ address img {
     width: auto;
     filter: invert(100%);
 }
+ .bottom {
+        display: block;
+    }
 
+@media (min-width: 720px) {
+    p{
+        
+    }
+}
+
+@media (min-width: 1280px) {
+    .bottom {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
+    body {
+        max-width: 1000px;
+        display: flex;
+    }
+    main ul{
+        line-height: 150%;
+        
+    }
+    header {
+        width: 380px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: #FEFFFF solid 1px;
+
+    }
+    .aboutMe{
+        margin-top: 50px;
+    }
+    main {
+        width: 620px;
+    }
+    address ul {
+        list-style: none;
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+    .footer p {
+        margin-bottom: 10px;
+        padding-bottom: 0;
+    }
+    .footer li {
+        text-align: left;
+        padding-bottom: 15px;
+    }
+    address a {
+        margin-left:50px;
+        margin-right:10px;
+    }
+    img {
+        width: 400px;
+    }
+    
+    
+}
