@@ -32,6 +32,7 @@ header {
     background-color: #303B3F;
 }
 
+
 main {
     padding: 0 15px;
 }
@@ -102,6 +103,9 @@ li>p>a {
 }
 
 @media (min-width: 1280px) {
+    .projects{
+        margin-bottom: 75px;
+    }
     .bottom {
         display: none;
     }
@@ -125,8 +129,8 @@ li>p>a {
         border-right: #FEFFFF solid 1px;
     }
     .hero {
-        position: relative;
-        top: -180px;
+        position: fixed;
+        top: 300px;
     }
     .aboutMe{
         margin-top: 50px;
