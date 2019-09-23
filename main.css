@@ -39,7 +39,7 @@ main {
 body {
     background-color: #878D8F;
     color: #FEFFFF;
-    min-width: 320px;
+    min-width: 260px;
     max-width: 620px;
     text-align: center;
     margin: 0 auto;
@@ -47,19 +47,16 @@ body {
     border: #FEFFFF 1px solid;
     
 }
-main ul{
+ul{
     font-family: 'Roboto', sans-serif;
     line-height: 140%;
-    margin-right:auto;
-    margin-left:auto;
     text-align: left;
     list-style: none;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 0;
    
 }
 img {
-    width: 320px;
+    max-width: 80%;
     transition: 0.3s;
 }
 img:hover {
@@ -71,10 +68,14 @@ img:hover {
     font-size: 1.2em;
     text-decoration: underline;
 }
+address>ul>li{
+    text-align: center;
+}
 address a {
     margin-left:20px;
     margin-right:30px;
 }
+
 a{
     color:#FEFFFF;
     transition: 0.3s;
@@ -94,7 +95,34 @@ address img {
 li>p>a {
     font-size: 20px;
 }
-
+@media (min-width: 450px) {
+    body {
+        background-color: #878D8F;
+        color: #FEFFFF;
+        min-width: 320px;
+        max-width: 620px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        border: #FEFFFF 1px solid;
+        
+    }
+    img {
+        width: 320px;
+        transition: 0.3s;
+    }
+    main ul{
+        font-family: 'Roboto', sans-serif;
+        line-height: 140%;
+        margin-right:auto;
+        margin-left:auto;
+        text-align: left;
+        list-style: none;
+        padding-left: 25px;
+        padding-right: 25px;
+       
+    }
+}
 
 @media (min-width: 820px) {
     body{
