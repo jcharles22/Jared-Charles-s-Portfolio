@@ -55,7 +55,7 @@ ul{
     padding-left: 0;
    
 }
-img {
+.projectImg {
     max-width: 80%;
     transition: 0.3s;
 }
@@ -86,8 +86,10 @@ a:hover {
 
 address img {
     height: 32px;
-    width: auto;
-    filter: invert(100%);
+    width: 32px;
+}
+.changeColor{
+    filter: invert(100%); 
 }
 .bottom {
         display: block;
@@ -158,7 +160,7 @@ li>p>a {
     }
     .hero {
         position: fixed;
-        top: 300px;
+        top: 200px;
     }
     .aboutMe{
         margin-top: 50px;
@@ -168,8 +170,10 @@ li>p>a {
     }
     address ul {
         list-style: none;
-        padding-left: 20px;
         margin-top: 50px;
+    }
+    .location, .email{
+        padding-left: 20px;
     }
     .footer p {
         margin-bottom: 10px;
@@ -179,8 +183,12 @@ li>p>a {
         text-align: left;
         padding-bottom: 15px;
     }
+    .socialMedia{
+        display: flex;
+        justify-content: space-evenly;
+    }
     address a {
-        margin-left:50px;
+        /* margin-left:50px; */
         margin-right:10px;
     }
     img {
